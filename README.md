@@ -5,6 +5,7 @@
 ```bash
 uv sync                       # pytest など開発環境を用意
 uv run python -m hitblow      # 遊ぶ
+uv run python -m hitblow 4    # 4桁など任意桁でも遊べる（1〜10）
 uv run pytest                 # core のテスト（緑）
 ```
 
